@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Aventura da Redação Nota 1000</title>
+    <!-- Carregamento do Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Carregamento da Fonte Nunito (lúdica e legível) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif;
+            background-color: #f1f5f9; /* Fundo de ardósia claro */
+        }
+        /* Efeito de "brilho" sutil nos títulos dos cards */
+        .card-title {
+            text-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="min-h-screen p-4 sm:p-8 flex flex-col items-center">
+
+    <div class="w-full max-w-6xl mx-auto">
+        <!-- Cabeçalho -->
+        <header class="text-center mb-10 p-6">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-600 mb-2">
+                A Aventura da Redação 1000
+            </h1>
+            <p class="text-lg sm:text-xl font-semibold text-slate-600">
+                O guia definitivo (e divertido!) para estruturar seu texto no ENEM.
+            </p>
+        </header>
+
+        <!-- Container da Estrutura (4 Parágrafos) -->
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+
+            <!-- Parágrafo 1: Introdução -->
+            <div class="bg-white p-6 rounded-2xl shadow-lg border-t-4 border-green-500 hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                <h2 class="card-title text-2xl font-bold mb-4 text-green-700 flex items-center">
+                    <span class="mr-3 text-3xl">🗺️</span> 1. A Introdução
+                </h2>
+                <div class="space-y-3 text-slate-700">
+                    <p class="font-semibold text-gray-900">Função: Onde a jornada começa!</p>
+                    <hr class="border-gray-200">
+                    <p class="text-sm font-bold text-indigo-600">Sua missão aqui é:</p>
+                    <ul class="list-none space-y-2 text-sm">
+                        <li><strong>1. Contextualizar:</strong> Apresente o tema ao leitor. (Use um filme, livro, história, etc.)</li>
+                        <li><strong>2. Apresentar a Tese:</strong> Mostre seu ponto de vista (a "causa" do problema).</li>
+                        <li><strong>3. Dar um "Spoiler":</strong> Cite brevemente os 2 argumentos que você vai usar (D1 e D2).</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Parágrafo 2: Desenvolvimento 1 (D1) -->
+            <div class="bg-white p-6 rounded-2xl shadow-lg border-t-4 border-amber-500 hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                <h2 class="card-title text-2xl font-bold mb-4 text-amber-700 flex items-center">
+                    <span class="mr-3 text-3xl">💡</span> 2. Desenvolvimento 1
+                </h2>
+                <div class="space-y-3 text-slate-700">
+                    <p class="font-semibold text-gray-900">Função: O primeiro argumento (a Causa).</p>
+                    <hr class="border-gray-200">
+                    <p class="text-sm font-bold text-indigo-600">Estrutura Mágica (para D1 e D2):</p>
+                    <ul class="list-none space-y-2 text-sm">
+                        <li><strong>Tópico Frasal:</strong> A ideia principal do parágrafo (seu argumento 1).</li>
+                        <li><strong>Repertório:</strong> Traga um "poder especial" (citação, dado, lei) que comprove sua ideia.</li>
+                        <li><strong>Análise:</strong> Explique COMO o repertório se liga ao argumento e ao tema.</li>
+                        <li><strong>Fechamento:</strong> Conclua a ideia do parágrafo.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Parágrafo 3: Desenvolvimento 2 (D2) -->
+            <div class="bg-white p-6 rounded-2xl shadow-lg border-t-4 border-teal-500 hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                <h2 class="card-title text-2xl font-bold mb-4 text-teal-700 flex items-center">
+                    <span class="mr-3 text-3xl">🧩</span> 3. Desenvolvimento 2
+                </h2>
+                <div class="space-y-3 text-slate-700">
+                    <p class="font-semibold text-gray-900">Função: O segundo argumento (a Consequência).</p>
+                    <hr class="border-gray-200">
+                    <p class="text-sm font-bold text-indigo-600">A Estrutura Mágica de novo!</p>
+                    <ul class="list-none space-y-2 text-sm">
+                        <li><strong>Tópico Frasal:</strong> Seu argumento 2.</li>
+                        <li><strong>Repertório:</strong> Outro "poder especial".</li>
+                        <li><strong>Análise:</strong> A parte mais importante! Ligue tudo.</li>
+                        <li><strong>Dica de Ouro:</strong> Comece com um conectivo (Ex: "Ademais", "Outrossim", "Além disso").</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Parágrafo 4: Conclusão (Intervenção) -->
+            <div class="bg-white p-6 rounded-2xl shadow-lg border-t-4 border-indigo-500 hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                <h2 class="card-title text-2xl font-bold mb-4 text-indigo-700 flex items-center">
+                    <span class="mr-3 text-3xl">🎯</span> 4. A Conclusão
+                </h2>
+                <div class="space-y-3 text-slate-700">
+                    <p class="font-semibold text-gray-900">Função: O Plano Mestre para resolver o problema.</p>
+                    <hr class="border-gray-200">
+                    <p class="text-sm font-bold text-indigo-600">Checklist dos 5 Elementos (Obrigatório!):</p>
+                    <ul class="list-none space-y-2 text-sm font-semibold">
+                        <li><span class="mr-2">🕵️</span><strong>Agente:</strong> QUEM vai fazer? (Ex: Governo, MEC)</li>
+                        <li><span class="mr-2">🎬</span><strong>Ação:</strong> O QUE será feito? (Ex: Criar campanhas)</li>
+                        <li><span class="mr-2">🛠️</span><strong>Meio/Modo:</strong> COMO será feito? (Ex: Por meio de mídias)</li>
+                        <li><span class="mr-2">🏁</span><strong>Finalidade:</strong> PARA QUE? (Ex: A fim de conscientizar...)</li>
+                        <li><span class="mr-2">🔍</span><strong>Detalhamento:</strong> Uma explicação extra de qualquer um dos 4 acima.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Dicas de Ouro -->
+        <section class="mt-10 bg-gradient-to-r from-slate-800 to-slate-900 text-white p-6 sm:p-8 rounded-2xl shadow-2xl border-4 border-yellow-400">
+            <h2 class="text-3xl font-extrabold text-center mb-6 text-yellow-300" style="text-shadow: 0 0 10px rgba(253, 224, 71, 0.5);">
+                ✨ Baú das Dicas de Ouro ✨
+            </h2>
+            <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 text-base list-none">
+                <li class="p-4 bg-slate-700 rounded-lg">
+                    <strong class="text-yellow-300">Não só cite, ANALISE!</strong> A maior parte da nota de argumento vem de você explicar o repertório, não só de jogá-lo no texto.
+                </li>
+                <li class="p-4 bg-slate-700 rounded-lg">
+                    <strong class="text-yellow-300">Use Conectivos!</strong> Comece o D2 e a Conclusão com "links" (Ex: "Ademais", "Portanto", "Em suma"). Isso deixa o texto "amarrado".
+                </li>
+                <li class="p-4 bg-slate-700 rounded-lg">
+                    <strong class="text-yellow-300">Não seja vago na Proposta!</strong> "O governo deve investir mais" não funciona. Diga QUEM (Ministério da Fazenda?) e COMO (Por meio de quais impostos?).
+                </li>
+                <li class="p-4 bg-slate-700 rounded-lg">
+                    <strong class="text-yellow-300">Respeite os Direitos Humanos!</strong> Nunca, jamais, proponha algo que fira a dignidade humana (Ex: "prender todos"). Isso zera a redação.
+                </li>
+            </ul>
+        </section>
+
+        <!-- Rodapé -->
+        <footer class="mt-10 text-center text-slate-500 text-sm p-4">
+            <p>
+                Com este mapa, sua jornada para a nota 1000 fica muito mais fácil. Bons estudos!
+            </p>
+        </footer>
+    </div>
+
+</body>
+</html>
